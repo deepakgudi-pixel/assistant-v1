@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.animatedElement {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.title{
+ font-size: 35px;
+ text-transform: uppercase;
+ position: absolute;
+ cursor: pointer;
+ z-index: 100;
+}
+
+.textToSpeech{
+  position: absolute;
+  top: 150px;
+  
+}
